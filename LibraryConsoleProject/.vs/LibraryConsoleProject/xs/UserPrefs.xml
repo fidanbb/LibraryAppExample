@@ -1,0 +1,50 @@
+﻿<Properties StartupConfiguration="{14FA84BA-AF40-448D-97E5-F00564761080}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LibraryConsoleProject/Controllers/LibraryController.cs">
+    <Files>
+      <File FileName="LibraryConsoleProject/Program.cs" Line="39" Column="44" />
+      <File FileName="Service/Helpers/Extensions/ConsoleExtensions.cs" Line="10" Column="2" />
+      <File FileName="LibraryConsoleProject/Controllers/LibraryController.cs" Line="131" Column="6" />
+      <File FileName="Service/Helpers/Enums/Operations.cs" Line="9" Column="19" />
+      <File FileName="Repository/Repositories/BaseRepository.cs" Line="34" Column="10" />
+      <File FileName="Service/Services/Interfaces/ILibraryService.cs" Line="18" Column="1" />
+      <File FileName="Service/Services/LibraryService.cs" Line="31" Column="70" />
+      <File FileName="Repository/Repositories/Interfaces/IBaseRepository.cs" Line="19" Column="1" />
+      <File FileName="Repository/Repositories/Interfaces/ILibraryRepository.cs" Line="1" Column="1" />
+      <File FileName="Repository/Repositories/LibraryRepository.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LibraryConsoleProject" expanded="True">
+            <Node name="LibraryConsoleProject" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="LibraryController.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="Repository" expanded="True">
+              <Node name="Repositories" expanded="True">
+                <Node name="Interfaces" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Service" expanded="True">
+              <Node name="Helpers" expanded="True">
+                <Node name="Enums" expanded="True" />
+                <Node name="Extensions" expanded="True" />
+              </Node>
+              <Node name="Services" expanded="True">
+                <Node name="Interfaces" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.LibraryConsoleProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
