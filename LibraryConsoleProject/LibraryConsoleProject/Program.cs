@@ -35,8 +35,11 @@ while (true)
             case (int)Operations.GetLibraryById:
                 library.GetById();
                 break;
-            case (int)Operations.SearchBySeatCount:
-                library.SearhBySeatCount();
+            case (int)Operations.FilterBySeatCount:
+                library.FilterBySeatCount();
+                break;
+            case (int)Operations.SearchByName:
+                library.SearchByName();
                 break;
             default:
                 ConsoleColor.Red.WriteConsole("Please write correct option");

@@ -107,7 +107,7 @@ namespace LibraryConsoleProject.Controllers
         }
 
 
-		public void SearhBySeatCount()
+		public void FilterBySeatCount()
 		{
         SeatCount: ConsoleColor.Cyan.WriteConsole("Add First seat count");
             string firstSeatCountStr = Console.ReadLine();
@@ -138,6 +138,43 @@ namespace LibraryConsoleProject.Controllers
                 ConsoleColor.Red.WriteConsole("Please add correct format for seat counts");
                 goto SeatCount;
             }
+        }
+
+
+        public void SearchByName()
+        {
+
+            ConsoleColor.Cyan.WriteConsole("Add text");
+        SearchText: string searchText = Console.ReadLine();
+
+            if (searchText == string.Empty)
+            {
+                ConsoleColor.Red.WriteConsole("You must enter something");
+                goto SearchText;
+            }
+	
+			
+                List<Library> result = _libraryService.GetAllByExpression(m => m.Name.Contains(searchText));
+
+          
+
+            if (result is null)
+			{
+				ConsoleColor.Red.WriteConsole("Data not Found");
+				goto SearchText;
+			}
+
+			else
+			{
+				foreach (var item in result)
+				{
+					string data = $"{item.Id} - {item.Name} - {item.SeatCount}";
+					ConsoleColor.Green.WriteConsole(data);
+				}
+
+			}
+
+
         }
 
     }

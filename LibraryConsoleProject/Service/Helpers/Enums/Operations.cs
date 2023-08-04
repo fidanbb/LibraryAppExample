@@ -8,8 +8,9 @@ namespace Service.Helpers.Enums
 		EditLibrary,
 		GetAllLibraries,
 		GetLibraryById,
-		SearchBySeatCount
+		FilterBySeatCount,
+        SearchByName
 
-	}
+    }
 }
 
